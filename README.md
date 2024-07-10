@@ -18,7 +18,7 @@ Pagina de amostra exclusiva e gratuito, promovido pelo Programador junior para a
 <br>
 
 <p align="center">
-  <img alt="Projeto de Aprendizagem" src=".github/cover.png" width="100%">
+  <img alt="Projeto de Aprendizagem" src=".github/Cover.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
