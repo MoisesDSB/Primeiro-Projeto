@@ -49,12 +49,10 @@ body * {
   margin-bottom: 0px;
   margin-top: 56px;
   */
-<<<<<<< HEAD
+
   width: 100%;
   max-width: 580px;
-=======
   width: 360px;
->>>>>>> 4fbc866cc41c3cc4767e46df4e1858c3fa906d2b
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -99,17 +97,13 @@ body * {
   transform: translateY(-50%);
 }
 
-<<<<<<< HEAD
+
 .light #switch button {
   right: 0;
   left: initial;
-=======
-.light #switch button{
-  right: 0;
-  left: initial;
-
->>>>>>> 4fbc866cc41c3cc4767e46df4e1858c3fa906d2b
 }
+
+
 
 #switch span {
   display: block;
