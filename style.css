@@ -95,12 +95,18 @@ body * {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
+
+  animation: xuva 0.4s forwards;
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.4s forwards;
 }
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+}
+
 
 #switch span {
   display: block;
@@ -177,10 +183,30 @@ footer {
 
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/Background.jpg);
+    --bg-url: url(./assets/bg.jpg);
   }
 
-  .ligh {
-    --bg-url: url(./assets/Bg-light.jpg);
+  .light {
+    --bg-url: url(./assets/bg-light.jpg);
   }
+}
+/* Animation rules */
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+@keyframes xuva {
+
+  from{
+    left: 50%;
+  }
+  to{
+    left: 0;
+  }
+  
 }
