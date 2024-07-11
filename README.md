@@ -28,7 +28,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - JavaScript
 - Git e Github
+<<<<<<< HEAD
   -Figman
+=======
+- Figma
+>>>>>>> 4fbc866cc41c3cc4767e46df4e1858c3fa906d2b
 
 ## 💻 Projeto
 
